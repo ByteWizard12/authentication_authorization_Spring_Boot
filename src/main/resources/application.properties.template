@@ -1,0 +1,17 @@
+spring.application.name=authentication_and_authorization_Spring_Boot
+
+server.port=23557
+
+# Database Configuration: PostgreSQL
+spring.datasource.url=jdbc:postgresql://your-host:your-port/your-database?sslmode=require
+spring.datasource.username=your-username
+spring.datasource.password=your-password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# Hibernate properties
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# Logging (Uncomment for debugging)
+# logging.level.org.springframework=DEBUG
+# logging.level.org.hibernate=DEBUG 
